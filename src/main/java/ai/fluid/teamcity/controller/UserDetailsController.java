@@ -24,7 +24,7 @@ public class UserDetailsController {
 	public String hello()
 	{
 		System.out.println("Hellow");
-		return "Hello";
+		return "Yes it's working ";
 	}
 
 	@PostMapping(value = "/addUser")
